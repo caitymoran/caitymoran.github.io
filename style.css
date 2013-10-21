@@ -3,75 +3,108 @@
 }
 
 body {
-font-family: helvetica;
-font-size: 14px;
-    }
+    /*font: 15px/1.5 "lato";*/
+    font-family: "lato";
+
+}
 
 h1 {
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 200;
     text-align: center;
+    letter-spacing: 1pt;
     padding: 10px 0;
+    color: #62C6DA;
 }
 
-.aboutme span {
-    display: block;
-    padding: 5px;
-    line-height: 1.2em;
+
+.hero img {
+    width: 100%;
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #333;
+    box-shadow: 0 3px 4px rgba(0,0,0,.2);
 }
+
+.aboutme {
+    padding: 20px;
+}
+
+    .aboutme p {
+        color: #666;
+        line-height: 1.8;
+        margin: 0 0 15px;
+    }
+
+    .aboutme a {
+        color: inherit;
+    }
 
 h2 {
     font-size: 20px;
     font-weight: bold;
+    color: #333;
+    margin: 0 0 20px;
 }
 
 /* PROJECTS */
 
 .projects {
     max-width: 960px;
-    text-align: center;
     margin: 0 auto;
 }
 
-.projects h2 {
-    text-align: center;
-    padding: 10px 0;
-}
+    .projects h2 {
+        padding: 0 0 0 20px;
+    }
+    .projects span {
+        display:block;
+        font-weight: bold;
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.4em;
+        color: #333;
+    }
+
+    .projects p {
+        line-height: 1.2em;
+        color: #999;
+
+    }
+
 
 .list {
-    padding: 5px;
-}
-
-.list img {
-    width: 300px;
-    height: 300px;
-    border-radius: 7%;
-}
-
-.headline {
-    display:block;
-    font-weight: bold;
-    font-size: 16px;
+    padding: 40px 0;
     text-align: center;
-    line-height: 1.4em;
 }
 
-.description {
-    line-height: 1.2em;
+    .list.lightgrey {
+        background: #f8f8f8;
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        box-shadow: inset 0 3px 4px rgba(0, 0, 0, .1) 
+    }
 
-}
+    .list img {
+        width: 300px;
+        height: 300px;
+        border-radius: 7%;
+        margin: 0 0 10px;
+    }
+    .list img a {
+        a:hover: ;
+    }
 
-.footer {
+footer {
     max-width: 960px;
     margin: 0 auto;
-    overflow: auto;
-
 }
 
-.social ul {
-    text-align: center;
-}
+    footer ul {
+        overflow: hidden;
+        width: 300px;
+        margin: 20px auto;
+    }
 
-.social li {
-    float: left;
-}
+    footer li {
+        float: left;
+    }
